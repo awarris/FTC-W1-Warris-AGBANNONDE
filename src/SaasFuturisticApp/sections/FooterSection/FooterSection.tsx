@@ -40,7 +40,7 @@ export const FooterSection = () => {
               <h3 className="font-medium text-white text-xl md:text-2xl tracking-[-0.24px] leading-normal">
                 {contactData.title}
               </h3>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-1">
                 {contactData.emails.map((email, index) => (
                   <div key={index} className="font-light text-white text-sm md:text-base lg:text-lg tracking-[-0.18px] leading-relaxed">
                     {email}
@@ -74,7 +74,7 @@ export const FooterSection = () => {
               <h3 className="font-medium text-white text-xl md:text-2xl tracking-[-0.24px] leading-normal">
                 {socialData.title}
               </h3>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-1">
                 {socialData.links.map((link, index) => (
                   <a key={index} href="#" className="font-light text-white text-sm md:text-base lg:text-lg tracking-[-0.18px] leading-normal hover:text-purple-300 transition-colors duration-300">
                     {link}
@@ -84,13 +84,10 @@ export const FooterSection = () => {
             </div>
 
             {/* Logo and Copyright Mobile */}
-            <div className="flex flex-col items-center gap-6 pt-6 border-t border-white/10">
+            <div className="flex flex-col items-center gap-2 pt-6 border-t border-white/10">
               <div className="flex items-center gap-3">
-                <div className="w-6 h-6 bg-white rounded-sm flex items-center justify-center">
-                  <div className="w-4 h-4 bg-[#0B0121] rounded-sm"></div>
-                </div>
                 <div className="font-bold text-[#ebebeb] text-lg tracking-[-0.5px]">
-                  Vaultflow
+                  <img src="/assets/images/logo.png" alt="valtflow-icon-1" />
                 </div>
               </div>
               <div className="font-light text-[#929292] text-sm text-center tracking-[-0.16px] leading-normal">

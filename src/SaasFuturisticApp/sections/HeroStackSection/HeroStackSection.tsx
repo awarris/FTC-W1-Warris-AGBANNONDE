@@ -46,12 +46,12 @@ export const HeroStackSection = () => {
 
           {/* Buttons */}
           <div className="flex sm:flex-col md:flex-row justify-center items-center gap-3 md:gap-4 pt-2 md:pt-3 lg:pt-4 w-full sm:w-auto">
-            <button className="w-full sm:w-full md:w-auto px-5 md:px-8 py-2.5 md:py-3 bg-[#ebebeb] rounded-full text-[#0b081c] font-medium text-sm md:text-base tracking-[0] leading-6 hover:bg-[#d4d4d4] transition-all duration-300 ease-out hover:shadow-lg hover:scale-105 active:scale-95">
+            <button className="w-full sm:w-full md:w-auto px-5 md:px-8 py-1.5 md:py-2 bg-[#ebebeb] rounded-full text-[#0b081c] font-medium text-sm md:text-base tracking-[0] leading-6 hover:bg-[#d4d4d4] transition-all duration-300 ease-out hover:shadow-lg hover:scale-105 active:scale-95">
               Download the app
             </button>
 
-            {/* Bouton caché sur mobile, visible à partir de sm */}
-            <button className="sm:hidden md:flex sm:w-full md:w-auto px-5 md:px-6 py-2.5 md:py-3 rounded-full border border-[#ebebeb] text-[#ebebeb] font-medium text-sm md:text-base tracking-[0] leading-6 bg-transparent hover:bg-[#ebebeb] hover:text-[#0b081c] transition-all duration-300 ease-out hover:shadow-lg hover:scale-105 active:scale-95 backdrop-blur-sm">
+            {/* Bouton caché sur mobile */}
+            <button className="hidden md:flex w-full md:w-auto px-5 md:px-6 py-1.5 md:py-2 rounded-full border border-[#ebebeb] text-[#ebebeb] font-medium text-sm md:text-base tracking-[0] leading-6 bg-transparent hover:bg-[#ebebeb] hover:text-[#0b081c] transition-all duration-300 ease-out hover:shadow-lg hover:scale-105 active:scale-95 backdrop-blur-sm">
               Talk to an expert
             </button>
           </div>
@@ -60,11 +60,10 @@ export const HeroStackSection = () => {
         {/* Card/Image Section */}
         <div className="flex flex-col h-48 sm:h-64 md:h-80 lg:h-96 xl:h-[472px] items-center justify-center w-full rounded-2xl lg:rounded-3xl shadow-[0px_-2px_40px_#bb9bff26,0px_-2px_10px_#e9dfff4c,inset_0px_0.5px_0px_#ffffff80] bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm border border-white/10 overflow-hidden">
           
-          {/* Image remplaçant le texte */}
           <img 
             src="/assets/images/hero_stack_image.png" 
             alt="Analytics Dashboard Preview" 
-            className="w-full h-full object-cover md:object-contain"
+            className="w-full h-full object-contain md:object-contain"
           />
         </div>
       </div>

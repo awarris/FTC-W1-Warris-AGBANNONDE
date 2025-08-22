@@ -129,7 +129,7 @@ export const NavbarSection = () => {
               }}>
               <button
                 onClick={closeMenu}
-                className="w-full px-6 py-4 border border-[#ebebeb] text-[#ebebeb] bg-transparent rounded-full font-medium text-base transition-all duration-300 ease-out hover:bg-[#ebebeb] hover:text-[#0b081c] active:scale-95"
+                className="w-full px-6 py-2 border border-[#ebebeb] text-[#ebebeb] bg-transparent rounded-full font-medium text-base transition-all duration-300 ease-out hover:bg-[#ebebeb] hover:text-[#0b081c] active:scale-95"
               >
                 Talk to an expert
               </button>
