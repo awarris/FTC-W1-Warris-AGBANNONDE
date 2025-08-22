@@ -1,12 +1,20 @@
+import logoDell from '../../../../assets/images/logo-dell.png';
+import logoZendesk from '../../../../assets/images/logo-zendesk.png';
+import logoRakuten from '../../../../assets/images/logo-rakuten.png';
+import logoPacificFunds from '../../../../assets/images/logo-pacific-funds.png';
+import logoNCR from '../../../../assets/images/logo-ncr.png';
+import logoLattice from '../../../../assets/images/logo-lattice.png';
+import logoTed from '../../../../assets/images/logo-ted.png';
+
 export const LogoTitleSection = () => {
   const logos = [
-    { name: "Dell", src: "./assets/images/logo-dell.png", alt: "Dell Logo" },
-    { name: "Zendesk", src: "./assets/images/logo-zendesk.png", alt: "Zendesk Logo" },
-    { name: "Rakuten", src: "./assets/images/logo-rakuten.png", alt: "Rakuten Logo" },
-    { name: "Pacific Funds", src: "./assets/images/logo-pacific-funds.png", alt: "Pacific Funds Logo" },
-    { name: "NCR", src: "./assets/images/logo-ncr.png", alt: "NCR Logo" },
-    { name: "Lattice", src: "./assets/images/logo-lattice.png", alt: "Lattice Logo" },
-    { name: "TED", src: "./assets/images/logo-ted.png", alt: "TED Logo" }
+    { name: "Dell", src: logoDell, alt: "Dell Logo" },
+    { name: "Zendesk", src: logoZendesk, alt: "Zendesk Logo" },
+    { name: "Rakuten", src: logoRakuten, alt: "Rakuten Logo" },
+    { name: "Pacific Funds", src: logoPacificFunds, alt: "Pacific Funds Logo" },
+    { name: "NCR", src: logoNCR, alt: "NCR Logo" },
+    { name: "Lattice", src: logoLattice, alt: "Lattice Logo" },
+    { name: "TED", src: logoTed, alt: "TED Logo" }
   ];
 
   return (

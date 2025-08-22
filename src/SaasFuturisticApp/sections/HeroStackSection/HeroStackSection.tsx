@@ -1,18 +1,21 @@
+import heroBackground from '../../../../assets/images/hero_background.jpg';
+import heroStackImage from '../../../../assets/images/hero_stack_image.png';
+
 export const HeroStackSection = () => {
   return (
-    <section className="flex flex-col items-center gap-10 md:gap-16 lg:gap-20 pt-20 md:pt-32 lg:pt-[170px] pb-10 md:pb-16 lg:pb-20 px-4 md:px-5 relative w-full bg-cover bg-center bg-no-repeat" 
+    <section className="flex flex-col items-center gap-10 md:gap-16 lg:gap-20 pt-20 md:pt-32 lg:pt-[170px] pb-10 md:pb-16 lg:pb-20 px-4 md:px-5 relative w-full bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('./assets/images/hero_background.jpg')"
+        backgroundImage: `url(${heroBackground})`
       }}>
-      
+
       {/* Background overlay for better readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/30" />
-      
+
       <div className="flex flex-col w-full max-w-[320px] sm:max-w-[480px] md:max-w-[768px] lg:max-w-[960px] items-center gap-10 md:gap-16 lg:gap-20 relative z-10">
-        
+
         {/* Content Section */}
         <div className="flex flex-col items-center gap-4 md:gap-5 lg:gap-6 w-full">
-          
+
           {/* Badge */}
           <div className="px-4 md:px-5 lg:px-[19.81px] py-2 md:py-2.5 lg:py-[9.91px] rounded-full border border-[#ffffff4c] bg-transparent backdrop-blur-sm">
             <span className="font-normal text-[#f2f4f8] text-sm md:text-base lg:text-[17.3px] text-center tracking-[0] leading-relaxed whitespace-nowrap">
@@ -22,7 +25,7 @@ export const HeroStackSection = () => {
 
           {/* Main Content */}
           <div className="flex flex-col items-center gap-4 md:gap-5 lg:gap-6 w-full">
-            
+
             {/* Main Title */}
             <h1 className="relative w-full bg-gradient-to-b from-[#ececec] to-[#ececec00] bg-clip-text text-transparent font-medium text-center tracking-tight leading-tight
               text-4xl md:text-5xl lg:text-6xl xl:text-[80px]
@@ -59,10 +62,10 @@ export const HeroStackSection = () => {
 
         {/* Card/Image Section */}
         <div className="flex flex-col h-48 sm:h-64 md:h-80 lg:h-96 xl:h-[472px] items-center justify-center w-full rounded-2xl lg:rounded-3xl shadow-[0px_-2px_40px_#bb9bff26,0px_-2px_10px_#e9dfff4c,inset_0px_0.5px_0px_#ffffff80] bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm border border-white/10 overflow-hidden">
-          
-          <img 
-            src="./assets/images/hero_stack_image.png" 
-            alt="Analytics Dashboard Preview" 
+
+          <img
+            src={heroStackImage}
+            alt="Analytics Dashboard Preview"
             className="w-full h-full object-contain md:object-contain"
           />
         </div>
