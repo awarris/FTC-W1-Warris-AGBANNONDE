@@ -2,7 +2,7 @@ export const HeroStackSection = () => {
   return (
     <section className="flex flex-col items-center gap-10 md:gap-16 lg:gap-20 pt-20 md:pt-32 lg:pt-[170px] pb-10 md:pb-16 lg:pb-20 px-4 md:px-5 relative w-full bg-cover bg-center bg-no-repeat" 
       style={{
-        backgroundImage: "url('/assets/images/hero_background.jpg')"
+        backgroundImage: "url('./assets/images/hero_background.jpg')"
       }}>
       
       {/* Background overlay for better readability */}
@@ -61,7 +61,7 @@ export const HeroStackSection = () => {
         <div className="flex flex-col h-48 sm:h-64 md:h-80 lg:h-96 xl:h-[472px] items-center justify-center w-full rounded-2xl lg:rounded-3xl shadow-[0px_-2px_40px_#bb9bff26,0px_-2px_10px_#e9dfff4c,inset_0px_0.5px_0px_#ffffff80] bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm border border-white/10 overflow-hidden">
           
           <img 
-            src="/assets/images/hero_stack_image.png" 
+            src="./assets/images/hero_stack_image.png" 
             alt="Analytics Dashboard Preview" 
             className="w-full h-full object-contain md:object-contain"
           />

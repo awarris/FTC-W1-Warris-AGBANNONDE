@@ -87,7 +87,7 @@ export const FooterSection = () => {
             <div className="flex flex-col items-center gap-2 pt-6 border-t border-white/10">
               <div className="flex items-center gap-3">
                 <div className="font-bold text-[#ebebeb] text-lg tracking-[-0.5px]">
-                  <img src="/assets/images/logo.png" alt="valtflow-icon-1" />
+                  <img src="./assets/images/logo.png" alt="valtflow-icon-1" />
                 </div>
               </div>
               <div className="font-light text-[#929292] text-sm text-center tracking-[-0.16px] leading-normal">
@@ -166,7 +166,7 @@ export const FooterSection = () => {
             <div className="w-[180px] flex items-end justify-end">
               <div className="flex items-center gap-3">
                 <div className="font-bold text-[#ebebeb] text-xl tracking-[-0.5px]">
-                  <img src="/assets/images/logo.png" alt="valtflow-icon-1" />
+                  <img src="./assets/images/logo.png" alt="valtflow-icon-1" />
                 </div>
               </div>
             </div>

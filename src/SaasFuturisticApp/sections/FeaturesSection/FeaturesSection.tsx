@@ -10,7 +10,7 @@ export const FeaturesSection = () => {
 
         {/* Header Section */}
         <header className="flex flex-col items-center gap-4 md:gap-5 lg:gap-6 w-full max-w-2xl px-4" style={{
-          backgroundImage: "url('/assets/images/feature-section.png')"
+          backgroundImage: "url('./assets/images/feature-section.png')"
         }}>
           <div className="flex items-center justify-center relative">
             <h2 className="font-medium text-[#ebebeb] text-center tracking-tight leading-tight
@@ -41,7 +41,7 @@ export const FeaturesSection = () => {
               transition-all duration-300 hover:shadow-[inset_0px_0.5px_0px_#ffffff80,0px_-2px_60px_#bb9bff40,0px_-2px_15px_#e9dfff60]
               group hover:scale-[1.01]">
               <img
-                src="/assets/images/feature-section-desktop.png"
+                src="./assets/images/feature-section-desktop.png"
                 alt="Analytics Dashboard Preview"
                 className="w-full h-full object-contain md:object-cover"
               />
@@ -49,7 +49,7 @@ export const FeaturesSection = () => {
             </div>
 
             <img
-              src="/assets/images/feature-section-mobile.png"
+              src="./assets/images/feature-section-mobile.png"
               alt="Analytics Dashboard Preview"
               className="w-full h-full object-cover sm:object-contain md:hidden block"
             />
