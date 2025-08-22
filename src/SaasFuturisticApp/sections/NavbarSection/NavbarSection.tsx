@@ -26,7 +26,7 @@ export const NavbarSection = () => {
         <a href="/" className="inline-flex items-center relative flex-[0_0_auto] z-50">
           <div className="flex items-center gap-2">
             <div className="font-bold text-[#ebebeb] text-xl tracking-[-0.5px]">
-              <img src={logo} alt="valtflow-icon-1" className="h-8 w-auto" />
+              <img src={logo} alt="valtflow-icon-1" className="h-4 w-auto" />
             </div>
           </div>
         </a>
